@@ -2,7 +2,7 @@
 
 Your mission, should you accept:
 
-1) Download setup.sql and execute it an a database of your choosing. It creates the `dbo.SupplierProduct` table and the `dbo.EqualSetsTest` stored procedure. It also inserts some 1000 suppliers with several products each into that table.
+1) Download [setup.sql](https://raw.githubusercontent.com/PSSUG/EqualSets/master/Setup.sql) and execute it an a database of your choosing. It creates the `dbo.SupplierProduct` table and the `dbo.EqualSetsTest` stored procedure. It also inserts some 1000 suppliers with several products each into that table.
 2) There are two suppliers in the dataset that have the exact same list of products each. Write a T-SQL query that finds them.
 3) Call the `EXEC dbo.EqualSetsTest @P1=?, @P2=?;` procedure passing in the two `SupplierId` Values.
 4) The output is a secret code word painted in the spatial results tab. !!Keep that word to yourself!! (If there's no word, you've got the wrong result.)
